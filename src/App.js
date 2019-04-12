@@ -20,7 +20,6 @@ export default class App extends Component {
     this.state = {
       currentScreen: 'start',
       currentScreenProps: {},
-      screenFormatId: '',
       screenTransitionForward: true,
     }
     this.screenHistory = [ {...this.state} ];
@@ -168,7 +167,7 @@ export default class App extends Component {
         deviceInfo: {
           screenFormatId: this.state.screenFormatId
         },
-        ds_activeLang: this.dataSlots['ds_activeLang'],
+        'ds_activeLang': this.dataSlots['ds_activeLang'],
       };
       switch (screenId) {
         default:

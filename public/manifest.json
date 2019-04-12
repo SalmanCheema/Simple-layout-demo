@@ -1,6 +1,6 @@
 {
-  "short_name": "My App",
-  "name": "My App",
+  "short_name": "Simple layout demo",
+  "name": "Simple layout demo",
   "icons": [
     {
       "src": "apple-touch-icon.png",
